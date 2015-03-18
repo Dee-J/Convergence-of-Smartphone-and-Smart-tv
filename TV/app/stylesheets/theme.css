@@ -1,0 +1,177 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+ 
+body, table, div, p{
+	font-family: 'Nanum Gothic', serif;
+	font-size: 32px;
+}
+
+.notiCheck {
+	color:#666;
+	background:#E0DEDC;
+	margin:20px;
+	border:#e0e0e0 0.5px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.notiCheck tr {
+	text-align: center;
+	padding-left:20px;
+}
+.notiCheck td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+
+
+.settingMain{	
+	width:600px;
+	min-width:500px;
+	border-collapse:collapse;  	
+	color:#6b6b6b;
+}
+.settingMain th{
+	font-size:30px;
+	height:70px;  
+	color:#f6f3f7; 
+	background:#418a95;  
+	border-bottom:1px solid #e0e0e0;
+	font-weight:bold;
+}  	
+.settingMain tr{	
+	height:50px;
+	background:#F2F2F2;
+	border-bottom:rgba(0,0,0,.05) 1px solid;
+}
+.settingMain td{	
+	box-sizing:border-box;
+	text-align: center;
+}
+.settingMain td:first-child {
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+	height:30px;
+    background:#63ACB7;
+    color:#f6f3f7; 
+    font-size:25px;
+    border:0px solid;
+	border-bottom:1px solid #e0e0e0;
+	width: 200px;
+}
+.settingMain2{	
+	width:500px;
+	min-width:500px;
+	border-collapse:collapse;  	
+	color:#6b6b6b;
+}
+.settingMain2 th{
+	font-size:30px;
+	height:70px;  
+	color:#f6f3f7; 
+	background:#418a95;  
+	border-bottom:1px solid #e0e0e0;
+	font-weight:bold;
+}  	
+.settingMain2 tr{	
+	height:50px;
+	background:#F2F2F2;
+	border-bottom:rgba(0,0,0,.05) 1px solid;
+}
+.settingMain2 td{	
+	box-sizing:border-box;
+	width: 200px;
+	text-align: center;
+}
+
+.notiPhoneTitle{
+	font-size:30px !important;
+	width:500px;	
+	height:70px;  		
+	background:#418a95;  
+	color:#f6f3f7; 
+	border-bottom:1px solid #e0e0e0;
+	font-weight:bold ;		
+}
+.notiPhoneTitleSub{
+	font-size:25px;	
+	width:500px;	
+	height:30px;	
+	background:#63ACB7;
+	color:#f6f3f7; 
+	border-bottom:1px solid #e0e0e0;	
+	text-align: center;  	
+}
+.notiPhoneTitleSub td:first-child {
+	border-right:1px solid #e0e0e0;
+}
+
+.notiPhoneNew{
+	font-size:20px;
+	background:#F2F2F2;
+	text-align: center;
+	color:#6b6b6b;	
+	box-sizing:border-box;
+	padding-left:30px;	
+	border-bottom:1px solid #e0e0e0;
+	width:500px;
+	border-right:1px solid #e0e0e0;
+}
+.notiPhoneNew td:first-child {
+	border-right:1px solid #e0e0e0;
+}
+
+.historyTitle{
+	font-size:30px;
+	height:70px;  	
+	background:#418a95;  
+	border-bottom:1px solid #e0e0e0;
+	font-weight:bold;
+	width:500px;	
+	border-bottom:1px solid #e0e0e0;
+	color:#f6f3f7; 
+}
+.historyTitlesub{
+	text-align: center;
+	padding-left:20px;
+	border-left: 0;
+	height:30px;
+    background:#63ACB7;
+    color:#f6f3f7; 
+    font-size:20px;
+    border:0px solid;
+	border-bottom:1px solid #e0e0e0;
+	width:500px;	
+}
+.historyNew{
+	background: #F2F2F2;
+	text-align: center;
+	color:#6b6b6b;	
+	box-sizing:border-box;
+	padding-left:30px;	
+	border-bottom:1px solid #e0e0e0;
+	width:500px;
+}
+
+ 
+.box_shadow {
+	background: #D8D8D8; 
+}
+.box_shadow2 {
+	border: 5px outset #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+.non_box_shadow2 {
+	margin: 5px;
+	padding: 0px;
+}
