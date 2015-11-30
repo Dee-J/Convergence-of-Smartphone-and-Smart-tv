@@ -67,7 +67,7 @@ public class NickNameActivity extends Fragment  {
 				String hexColor = String.format("#%06X", (0xFFFFFF & selectedcolor));
 
 				pref.edit().putString("color", hexColor).commit();
-				Toast.makeText(getActivity(), "ë‹‰ë„¤ì„ê³¼ ìƒ‰ìƒì´ ì ìš©ë©ë‹ˆë‹¤.", Toast.LENGTH_LONG).show();
+				Toast.makeText(getActivity(), "¾ÆÀÌµğ°¡ »ı¼ºµÇ¾ú½À´Ï´Ù.", Toast.LENGTH_LONG).show();
 
 			}
 		});;
